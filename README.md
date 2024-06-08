@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=venkat-jaswanth&label=Profile%20views&color=0e75b6&style=flat" alt="venkat-jaswanth" /> </p>
 
-- 🌱 I'm learning about Machine Learning, Deep Learning, and Data Science. It's all about understanding data and using it to make predictions and decisions. I'm really interested in how we can use this knowledge to solve real-world problems and make things better**
+- 🌱 I'm learning about Machine Learning, Deep Learning, and Data Science. It's all about understanding data and using it to make predictions and decisions. I'm really interested in how we can use this knowledge to solve real-world problems and make things better
 
 - 📫 How to reach me **indupuruvenkatjaswanth@gmail.com**
 
