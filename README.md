@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jaswanth</h1>
-<h3 align="center">A passionate Developer who is passionate about AI/ML and Data Science </h3>
+<h3 align="center">A passionate Developer who is passionate about Developing Cool and Interesting Applications, Softwares </h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=venkat-jaswanth&label=Profile%20views&color=0e75b6&style=flat" alt="venkat-jaswanth" /> </p>
 
