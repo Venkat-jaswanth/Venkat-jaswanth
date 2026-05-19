@@ -106,7 +106,7 @@ const venkat = {
 <!-- ── contribution activity graph: commits / active days over time ── -->
 <div align="center">
 
-[![Venkat's activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Venkat-jaswanth&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=c0caf5&area=true&area_color=70a5fd&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%94%20Commits%20%26%20Active%20Days)](https://github.com/Venkat-jaswanth)
+[![Venkat's activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Venkat-jaswanth&bg_color=1a1b27&color=00e5ff&line=f471b5&point=ffffff&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20Activity%20%E2%80%94%20Commits%20%26%20Active%20Days)](https://github.com/Venkat-jaswanth)
 
 </div>
 
@@ -187,11 +187,20 @@ Cloud-native distributed eCommerce engineered for **1M+ users** — Next.js + Me
 
 <div align="center">
 
+<!-- glowing rainbow divider -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00e5ff,20:2563eb,40:7c3aed,60:db2777,80:f59e0b,100:00e5ff&height=3&section=header" alt="divider"/>
+
+### 🐍 &nbsp; Watch it devour my contributions &nbsp; 🍎
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Venkat-jaswanth/Venkat-jaswanth/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Venkat-jaswanth/Venkat-jaswanth/output/github-contribution-grid-snake.svg"/>
-  <img alt="snake eating contributions" src="https://raw.githubusercontent.com/Venkat-jaswanth/Venkat-jaswanth/output/github-contribution-grid-snake.svg"/>
+  <img alt="neon snake eating contributions" src="https://raw.githubusercontent.com/Venkat-jaswanth/Venkat-jaswanth/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
+
+<sub>🔵 blue → 🟣 purple → 🌸 magenta → 🟠 amber &nbsp;·&nbsp; the more contributions, the hotter the glow</sub>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:f59e0b,20:db2777,40:7c3aed,60:2563eb,80:00e5ff,100:f59e0b&height=3&section=header" alt="divider"/>
 
 </div>
 
