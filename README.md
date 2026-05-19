@@ -110,6 +110,33 @@ const venkat = {
 <br/>
 
 <!-- ╔═══════════════════════════════════════════════════════════════════╗
+     ║                  3D  CONTRIBUTION  CITY  (hero)                   ║
+     ╚═══════════════════════════════════════════════════════════════════╝ -->
+
+## &nbsp;`>` contribution city · 3D
+
+<div align="center">
+
+<sub>🛡️ &nbsp;self-generated & committed to the repo — never rate-limited</sub>
+
+<!-- glowing rainbow divider -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00e5ff,20:2563eb,40:7c3aed,60:db2777,80:f59e0b,100:00e5ff&height=3&section=header" alt="divider"/>
+
+### 🏙️ &nbsp; Every tower is a day I shipped code &nbsp; 🌃
+
+<!-- BULLETPROOF: committed into the repo by the 3D-contrib action.
+     Swap the filename to any of the 10 variants — see SETUP_GUIDE. -->
+<img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution city — night rainbow"/>
+
+<sub>an isometric skyline of my last year of commits — taller & brighter = busier days</sub>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:f59e0b,20:db2777,40:7c3aed,60:2563eb,80:00e5ff,100:f59e0b&height=3&section=header" alt="divider"/>
+
+</div>
+
+<br/>
+
+<!-- ╔═══════════════════════════════════════════════════════════════════╗
      ║                          TROPHIES                                 ║
      ╚═══════════════════════════════════════════════════════════════════╝ -->
 
