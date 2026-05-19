@@ -1,0 +1,36 @@
+# .github/workflows/profile-3d.yml
+# Builds a 3D isometric "city" of your commit history and COMMITS the SVGs
+# into your repo (folder: profile-3d-contrib/). Bulletproof — no external
+# server, can never rate-limit. Generates 10 style variants in one run.
+
+name: GitHub Profile 3D Contrib
+
+on:
+  schedule:
+    - cron: "30 18 * * *"   # ~00:00 IST daily
+  workflow_dispatch:         # run manually from the Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "chore: refresh 3D contribution city [skip ci]"; then
+            git push
+          fi
