@@ -93,7 +93,6 @@ const venkat = {
 
 <div align="center">
 
-<sub>🛡️ &nbsp;self-generated & committed to the repo — never rate-limited</sub>
 
 <!-- glowing rainbow divider -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00e5ff,20:2563eb,40:7c3aed,60:db2777,80:f59e0b,100:00e5ff&height=3&section=header" alt="divider"/>
