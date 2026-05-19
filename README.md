@@ -159,7 +159,7 @@ A multi-platform process-flow editor (IIT Bombay) — 99.9%+ component-positioni
 </td>
 <td width="50%" valign="top">
 
-### 🛒 &nbsp;HypeOn.ai Platform
+### 🛒 &nbsp;Fiorawall Platform
 Cloud-native distributed eCommerce engineered for **1M+ users** — Next.js + Medusa + PostgreSQL + Redis, Adyen payment workflows, SSR/ISR with Cloudflare CDN, 6+ integrated services.
 
 `Next.js` &nbsp;`Medusa` &nbsp;`PostgreSQL` &nbsp;`Redis`
