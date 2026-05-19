@@ -1,0 +1,77 @@
+# .github/workflows/metrics.yml
+# Generates a single rich infographic SVG and COMMITS it into the repo.
+# Because the image lives in your repo (not on a shared server), it can
+# never rate-limit or fail to load — unlike github-readme-stats.
+#
+# Look: "terminal" template — a slick dark hacker-terminal aesthetic that
+# matches the `> whoami` / `> arsenal` theme of the README.
+
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:          # run manually from the Actions tab
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate metrics infographic
+        uses: lowlighter/metrics@latest
+        with:
+          # --- identity ---
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Venkat-jaswanth
+          filename: github-metrics.svg
+
+          # --- the cool UI ---
+          template: terminal           # dark hacker-terminal look
+          config_animations: yes
+          config_timezone: Asia/Kolkata   # makes "coding habits" accurate for IST
+          config_order: base.header, isocalendar, languages, habits, activity, followup, achievements
+
+          # --- header (avatar, name, repos, stars, followers) ---
+          base: header
+
+          # --- 3D-style contribution calendar + streak + daily average ---
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # --- most-used + recently-used languages ---
+          plugin_languages: yes
+          plugin_languages_details: percentage, bytes-size
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_limit: 8
+
+          # --- coding habits: most active hours/days, indent style, etc.
+          #     (recruiters love this one) ---
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+          # --- recent public activity feed ---
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_visibility: all
+
+          # --- open-source follow-up: issues & PRs ---
+          plugin_followup: yes
+
+          # --- GitHub achievements (Pull Shark, Quickdraw, etc.) ---
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+
+          # --- commit the generated SVG straight back into the repo ---
+          output_action: commit
+          committer_branch: main
+          committer_message: "chore: refresh metrics [skip ci]"
