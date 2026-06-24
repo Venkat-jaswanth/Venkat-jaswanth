@@ -34,7 +34,7 @@
       </div>
 
 <pre><div class="stdin"><span class="ps1-path">venkat-jaswanth@metrics</span>:<span class="ps1-location">~</span># whoami</div><div class="stdout"><b>Indupuru Venkat Jaswanth </b> registered=2y, uid=2432, gid=0
-  contributed to 32 repositories <b><span style="color:#40c463">#</span><span style="color:#30a14e">#</span><span style="color:#9be9a8">#</span><span style="color:#30a14e">#</span><span style="color:#40c463">#</span><span style="color:#216e39">#</span><span style="color:#9be9a8">#</span><span style="color:#30a14e">#</span><span style="color:#40c463">#</span><span style="color:#40c463">#</span><span style="color:#40c463">#</span><span style="color:#40c463">#</span><span style="color:#9be9a8">#</span><span style="color:#ebedf0">#</span></b>
+  contributed to 32 repositories <b><span style="color:#40c463">#</span><span style="color:#30a14e">#</span><span style="color:#9be9a8">#</span><span style="color:#30a14e">#</span><span style="color:#40c463">#</span><span style="color:#216e39">#</span><span style="color:#9be9a8">#</span><span style="color:#30a14e">#</span><span style="color:#40c463">#</span><span style="color:#40c463">#</span><span style="color:#40c463">#</span><span style="color:#40c463">#</span><span style="color:#9be9a8">#</span><span style="color:#9be9a8">#</span></b>
   followed by <b>13</b> users
 </div>
 <div class="stdin"><span class="ps1-path">venkat-jaswanth@metrics</span>:<span class="ps1-location">~</span># ncal -MB11</div><div class="stdout"><div class="isocalendar">
@@ -1876,10 +1876,10 @@
                       <path fill="#30a14e" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.8227848101265822 0,2.8227848101265822 z"/>
                       <path fill="#30a14e" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.8227848101265822 1.7,3.8227848101265822 z"/>
                     </g>
-                    <g transform="translate(-1.7, 4.493670886075949)">
+                    <g transform="translate(-1.7, 4.417721518987341)">
                       <path fill="#216e39" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                      <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.506329113924051 0,3.5063291139240507 z"/>
-                      <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.5063291139240507 1.7,4.506329113924051 z"/>
+                      <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.582278481012658 0,3.5822784810126582 z"/>
+                      <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.5822784810126582 1.7,4.582278481012658 z"/>
                     </g>
                     <g transform="translate(-3.4, 7.0886075949367084)">
                       <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
