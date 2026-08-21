@@ -38,7 +38,7 @@
 
 ```ts
 const venkat = {
-  role:      "Software Engineer Intern @ HypeOn.ai",
+  role:      "Chief Technology Officer @ Fiorawall, Inc.",
   education: "B.Tech CS · AI & Data Science · IIIT Kottayam '27",
   focus:     ["full-stack systems", "distributed architecture", "DSA"],
   stack:     ["TypeScript", "Next.js", "Python", "C++", "PostgreSQL"],
