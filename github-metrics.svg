@@ -1901,14 +1901,14 @@
 </div>
 
 
-<div class="stdin"><span class="ps1-path">venkat-jaswanth@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>JUPYTER NOTEBOOK</b> [###########         ] 54.85%
-<b>PYTHON      </b> [###                 ] 11.82%
-<b>TYPESCRIPT  </b> [###                 ] 10.87%
-<b>CSS         </b> [##                  ] 8.43 %
-<b>HTML        </b> [#                   ] 4.98 %
-<b>JAVASCRIPT  </b> [#                   ] 4.36 %
-<b>SCSS        </b> [#                   ] 3.82 %
-<b>C++         </b> [#                   ] 0.87 %
+<div class="stdin"><span class="ps1-path">venkat-jaswanth@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>JUPYTER NOTEBOOK</b> [###########         ] 54.71%
+<b>PYTHON      </b> [###                 ] 12.06%
+<b>TYPESCRIPT  </b> [###                 ] 10.84%
+<b>CSS         </b> [##                  ] 8.40 %
+<b>HTML        </b> [#                   ] 4.97 %
+<b>JAVASCRIPT  </b> [#                   ] 4.35 %
+<b>SCSS        </b> [#                   ] 3.81 %
+<b>C++         </b> [#                   ] 0.86 %
 </div>
 </pre>
 
